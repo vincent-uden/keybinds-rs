@@ -1,13 +1,13 @@
 [package]
-name = "keybinds"
+name = "keybinds2"
 version = "0.2.0"
 edition = "2021"
-authors = ["rhysd <lin90162@yahoo.co.jp>"]
+authors = ["rhysd <lin90162@yahoo.co.jp>", "vincent-uden <vincentuden@gmail.com>"]
 description = "Platform&Framework-agnostic key binding (keyboard shortcut) dispatcher, parser, and generator written in Safe Rust."
 license = "MIT"
-homepage = "https://github.com/rhysd/keybinds-rs#readme"
-documentation = "https://docs.rs/keybinds"
-repository = "https://github.com/rhysd/keybinds-rs"
+homepage = "https://github.com/vincent-uden/keybinds-rs#readme"
+documentation = "https://docs.rs/keybinds-iced-0-14"
+repository = "https://github.com/vincent-uden/keybinds-rs"
 keywords = ["key", "bindings", "configuration", "shortcut", "keyboard"]
 categories = ["config", "gui"]
 include = [
@@ -94,7 +94,7 @@ arbitrary = ["dep:arbitrary"]
 arbitrary = { version = "1.4.1", features = ["derive"], optional = true }
 bitflags = "2.9.1"
 crossterm = { version = "0.29.0", optional = true }
-iced = { version = "0.13.1", optional = true }
+iced = { version = "0.14.0", optional = true }
 serde = { version = "1.0.219", optional = true }
 smallvec = { version = "1.15.0", features = ["const_generics", "union"] }
 termwiz = { version = "0.23.3", optional = true }

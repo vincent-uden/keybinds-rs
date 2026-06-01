@@ -9,7 +9,7 @@ name = "bench"
 harness = false
 
 [dependencies]
-keybinds = { path = ".." }
+keybinds2 = { path = ".." }
 
 [dev-dependencies]
 criterion = "0.6.0"
